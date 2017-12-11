@@ -6,10 +6,12 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script src="aos.js" ></script>
         <link rel="shortcut icon" type="image/png" href="https://www.homecare.com/img/favicon.png">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="aos.css">
     </head>
-    <body  data-spy="scroll" data-target=".navbar" data-offset="200">
+    <body  data-spy="scroll" data-target=".navbar" >
         <div class="containe-fluid">
             <header class="row fixed-top">
                 <!-- header 1st row Start -->
@@ -105,7 +107,7 @@
                             
                 </section>
                 <section class="col-sm-12 services px-0">
-                    <article id="plumberService" class="row my-1 align-text-bottom">
+                    <article id="plumberService" class="row my-1 align-text-bottom" data-aos="zoom-in">
                         <div class="col-4 jumbotron bg-secondary align-text-bottom">
                                 <h3>Plumber Services&nbsp;&nbsp;&nbsp;&nbsp;> </h3>
                           </div>
@@ -115,7 +117,7 @@
                           </div>
                       </article>
 
-                      <article id="electricianService" class="row my-1">
+                      <article id="electricianService" class="row my-1" data-aos="zoom-in">
                           <div class="col-4 jumbotron bg-secondary ">
                                   <h3>Electrical Services&nbsp;&nbsp;&nbsp;&nbsp;> </h3>
                             </div>
@@ -125,7 +127,7 @@
                             </div>
                         </article>
 
-                        <article id="aCRepairService" class="row my-1">
+                        <article id="aCRepairService" class="row my-1" data-aos="zoom-in">
                             <div class="col-4 jumbotron bg-secondary ">
                                     <h3>Air Conditioner Services&nbsp;&nbsp;&nbsp;&nbsp;> </h3>
                               </div>
@@ -135,7 +137,7 @@
                               </div>
                           </article>
 
-                          <article id="purifierService" class="row my-1">
+                          <article id="purifierService" class="row my-1" data-aos="zoom-in">
                               <div class="col-4 jumbotron bg-secondary ">
                                       <h3>Purifier Services&nbsp;&nbsp;&nbsp;&nbsp;> </h3>
                                 </div>
@@ -152,3 +154,12 @@
     </body>
 
 </html>
+
+<script>
+    AOS.init({
+      offset:50,
+      duration: 1000,
+      easing: 'ease-in-sine',
+      delay: 50,
+    });
+  </script>

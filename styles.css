@@ -1,10 +1,11 @@
 body{
 
     background: rgba(128, 128, 128, 0.22);
+    font-family: "Raleway";
 }
-header{
-    background: rgba(128, 128, 128, 0.22);
-    z-index:999;
+header.row{
+    background: #e9ecef;
+    z-index:99999;
 }
 
 
@@ -31,6 +32,6 @@ header + section{
     flex-direction: column;
     text-align: center;
 }
-section.services article div{
-   background-color:  #868e9640 !important;
+section.services article div:first-of-type{
+   background-color:  #868e9626 !important;
 }
