@@ -5,7 +5,7 @@ body{
 }
 header.row{
     background: #e9ecef;
-    z-index:99999;
+   
 }
 
 
@@ -34,4 +34,34 @@ header + section{
 }
 section.services article div:first-of-type{
    background-color:  #868e9626 !important;
+}
+section.services article div:last-of-type{
+    background-color:  #17a2b829 !important;
+ }
+
+  .servicesDetailsModal div {
+     background-color: #17a2b829 !important;
+ }
+  .servicesDetailsModal div.card-body {
+    background-color: #d9f0f4a1 !important;
+}
+.servicesDetailsModal div.card-footer {
+    background-color: #17a2b894 !important;
+}
+.servicesDetailsModal div.modal-header {
+    background-color: #17a2b8 !important;
+}
+
+
+.servicesDetailsModal{
+    text-align: center;
+}
+.servicesDetailsModal img{
+    width:91px;
+    height:91px;
+}
+
+footer{
+    color: white;
+    background-color: black;
 }
